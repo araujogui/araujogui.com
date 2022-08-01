@@ -17,11 +17,11 @@ const Foreword = () => {
             bgGradient="linear(to-l, #E1704F, #CF617E, #6B84BC)"
             bgClip="text"
           >
-            Elit consequat reprehenderit cupidatat
+            Hi! I&apos;m Guilherme Araújo
           </chakra.span>{" "}
-          👋🏻 exercitation mollit est et nisi enim. Non ipsum enim laborum dolore
-          cillum mollit cillum mollit adipisicing dolor sint 🇧🇷 Aute ad culpa
-          qui proident aute.
+          👋🏻 a self-taught full-stack developer, currently based in Brazil 🇧🇷
+          and passionate about creating memorable and impactful product
+          experiences. 🚀
         </Heading>
         <ButtonGroup mt="6">
           <Button as="a" href="#about">
