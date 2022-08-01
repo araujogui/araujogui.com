@@ -1,7 +1,13 @@
+import About from "../components/About";
 import Foreword from "../components/Foreword";
 
 const Index = () => {
-  return <Foreword />;
+  return (
+    <main>
+      <Foreword />
+      <About />
+    </main>
+  );
 };
 
 export default Index;
