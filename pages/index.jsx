@@ -1,7 +1,7 @@
-import { Heading } from "@chakra-ui/react";
+import Foreword from "../components/Foreword";
 
 const Index = () => {
-  return <Heading>Hello, world!</Heading>;
+  return <Foreword />;
 };
 
 export default Index;
