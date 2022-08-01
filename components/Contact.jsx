@@ -17,7 +17,7 @@ const Contact = () => {
           mt="4"
         >
           Send me an email at{" "}
-          <Link href="mailto:contact@araujogui.com" color="blue.500" isExternal>
+          <Link href="mailto:contact@araujogui.com" color="blue.600" isExternal>
             contact@araujogui.com
           </Link>
           .
