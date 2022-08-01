@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Text, useColorModeValue } from "@chakra-ui/react";
+import { Flex, Heading, Text, useColorModeValue } from "@chakra-ui/react";
 
 const Item = () => {
   return (
@@ -13,7 +13,7 @@ const Item = () => {
           Since 2022
         </Text>
       </div>
-      <Box width="full">
+      <div>
         <Heading size="sm">Full-stack developer</Heading>
         <Text
           color={useColorModeValue("blackAlpha.700", "whiteAlpha.700")}
@@ -24,7 +24,7 @@ const Item = () => {
           consequat laboris nostrud dolore mollit minim. Adipisicing laborum
           irure officia sint.
         </Text>
-      </Box>
+      </div>
     </Flex>
   );
 };
