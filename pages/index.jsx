@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import Foreword from "../components/Foreword";
 
@@ -12,6 +13,7 @@ const Index = () => {
       <Foreword />
       <About />
       <Experience />
+      <Contact />
     </main>
   );
 };
