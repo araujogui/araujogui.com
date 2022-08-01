@@ -1,4 +1,12 @@
-import { Box, chakra, Container, Heading } from "@chakra-ui/react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
+import {
+  Box,
+  Button,
+  ButtonGroup,
+  chakra,
+  Container,
+  Heading,
+} from "@chakra-ui/react";
 
 const Foreword = () => {
   return (
@@ -15,6 +23,22 @@ const Foreword = () => {
           cillum mollit cillum mollit adipisicing dolor sint 🇧🇷 Aute ad culpa
           qui proident aute.
         </Heading>
+        <ButtonGroup mt="6">
+          <Button as="a" href="#about">
+            About
+          </Button>
+          <Button as="a" href="#experience">
+            Experience
+          </Button>
+          <Button
+            as="a"
+            href="/resume.pdf"
+            variant="ghost"
+            rightIcon={<ExternalLinkIcon />}
+          >
+            Resume
+          </Button>
+        </ButtonGroup>
       </Container>
     </Box>
   );
