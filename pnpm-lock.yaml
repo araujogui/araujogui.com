@@ -4,6 +4,7 @@ specifiers:
   '@chakra-ui/react': ^2.2.4
   '@emotion/react': ^11.10.0
   '@emotion/styled': ^11.10.0
+  '@fontsource/inter': ^4.5.11
   eslint: ^8.21.0
   eslint-config-next: ^12.2.3
   eslint-config-prettier: ^8.5.0
@@ -17,6 +18,7 @@ dependencies:
   '@chakra-ui/react': 2.2.4_4tnyqo4lmvvwxlr3tr6kuboswy
   '@emotion/react': 11.10.0_react@18.2.0
   '@emotion/styled': 11.10.0_g566eayvhbit5eqxocdac5mhdm
+  '@fontsource/inter': 4.5.11
   framer-motion: 6.5.1_biqbaboplfbrettd7655fr4n2y
   next: 12.2.3_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -1028,6 +1030,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/inter/4.5.11:
+    resolution: {integrity: sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w==}
+    dev: false
 
   /@humanwhocodes/config-array/0.10.4:
     resolution: {integrity: sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==}
