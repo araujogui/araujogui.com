@@ -1,8 +1,19 @@
-import { Box, Container, Heading, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  Heading,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Box as="section" id="about" bg="gray.100" py="16">
+    <Box
+      as="section"
+      id="about"
+      bg={useColorModeValue("gray.100", "gray.900")}
+      py="16"
+    >
       <Container maxW="container.md">
         <Heading size="md">About</Heading>
         <Text lineHeight="taller" mt="4">
