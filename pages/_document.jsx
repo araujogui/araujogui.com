@@ -4,7 +4,7 @@ import theme from "../lib/theme";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en-US">
       <Head />
       <body>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />
