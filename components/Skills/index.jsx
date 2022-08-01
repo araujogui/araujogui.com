@@ -6,7 +6,7 @@ const Skills = () => {
     <Box as="section" id="skills" my="24">
       <Container maxW="container.md">
         <Heading size="md">Skills</Heading>
-        <SimpleGrid columns={{ base: 2, md: 4 }} mt="4">
+        <SimpleGrid columns={{ base: 2, md: 4 }} spacing="4" mt="4">
           <List spacing="1">
             <Item>JavaScript</Item>
             <Item>TypeScript</Item>
