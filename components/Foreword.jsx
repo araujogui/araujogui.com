@@ -10,7 +10,7 @@ import {
 
 const Foreword = () => {
   return (
-    <Box as="section" id="foreword" my="32">
+    <Box as="section" id="foreword" my="40">
       <Container maxW="container.md">
         <Heading as="h1" lineHeight="tall">
           <chakra.span
