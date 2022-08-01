@@ -15,9 +15,10 @@ const Footer = () => {
       as="footer"
       borderTop="1px"
       borderColor={useColorModeValue("gray.200", "whiteAlpha.300")}
+      py="8"
     >
       <Container maxW="container.md">
-        <SimpleGrid columns="2" py="8">
+        <SimpleGrid columns="2">
           <List spacing="1">
             <ListItem>
               <Link href="/">Home</Link>
@@ -53,7 +54,7 @@ const Footer = () => {
             </ListItem>
           </List>
         </SimpleGrid>
-        <Text>Copyright © 2022 Guilherme Araújo</Text>
+        <Text mt="6">Copyright © 2022 Guilherme Araújo</Text>
       </Container>
     </Box>
   );
