@@ -6,7 +6,7 @@ const Experience = () => {
     <Box as="section" id="experience" my="24">
       <Container maxW="container.md">
         <Heading size="md">Experience</Heading>
-        <Stack mt="6" spacing="4" divider={<StackDivider />}>
+        <Stack mt="7" spacing="4" divider={<StackDivider />}>
           <Item />
           <Item />
           <Item />
