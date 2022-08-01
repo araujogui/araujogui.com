@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Experience from "../components/Experience";
 import Foreword from "../components/Foreword";
 
 const Index = () => {
@@ -10,6 +11,7 @@ const Index = () => {
       </Head>
       <Foreword />
       <About />
+      <Experience />
     </main>
   );
 };
