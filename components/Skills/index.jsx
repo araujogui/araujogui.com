@@ -14,7 +14,7 @@ const Skills = () => {
       as="section"
       id="skills"
       py="16"
-      bg={useColorModeValue("gray.50", "gray.900")}
+      bg={useColorModeValue("gray.50", "#191D28")}
     >
       <Container maxW="container.md">
         <Heading size="md">Skills</Heading>
