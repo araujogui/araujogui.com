@@ -1,9 +1,21 @@
-import { Box, Container, Heading, List, SimpleGrid } from "@chakra-ui/react";
+import {
+  Box,
+  Container,
+  Heading,
+  List,
+  SimpleGrid,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import Item from "./Item";
 
 const Skills = () => {
   return (
-    <Box as="section" id="skills" my="24">
+    <Box
+      as="section"
+      id="skills"
+      py="16"
+      bg={useColorModeValue("gray.50", "gray.900")}
+    >
       <Container maxW="container.md">
         <Heading size="md">Skills</Heading>
         <SimpleGrid columns={{ base: 2, md: 4 }} spacing="4" mt="4">

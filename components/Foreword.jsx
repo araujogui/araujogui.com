@@ -21,7 +21,7 @@ const Foreword = () => {
           </chakra.span>{" "}
           👋🏻 a self-taught full-stack developer, currently based in Brazil 🇧🇷
           and passionate about creating memorable and impactful product
-          experience. 🚀
+          experiences. 🚀
         </Heading>
         <ButtonGroup mt="6">
           <Button as="a" href="#about">

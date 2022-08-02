@@ -11,7 +11,7 @@ const About = () => {
     <Box
       as="section"
       id="about"
-      bg={useColorModeValue("gray.100", "gray.900")}
+      bg={useColorModeValue("gray.100", "gray.700")}
       py="16"
     >
       <Container maxW="container.md">
