@@ -12,6 +12,8 @@ const About = () => {
       as="section"
       id="about"
       bg={useColorModeValue("gray.100", "gray.700")}
+      borderY={useColorModeValue("1px")}
+      borderColor={useColorModeValue("gray.200")}
       py="16"
     >
       <Container maxW="container.md">
